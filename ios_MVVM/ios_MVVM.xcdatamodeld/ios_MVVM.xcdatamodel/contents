@@ -1,4 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="20B29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="HistoryProductLIstItem" representedClassName="HistoryProductLIstItem" syncable="YES">
+        <attribute name="desc" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="imageUrl" optional="YES" attributeType="String"/>
+        <attribute name="loved" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="price" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ProductListItem" representedClassName="ProductListItem" syncable="YES">
+        <attribute name="desc" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="imageUrl" optional="YES" attributeType="String"/>
+        <attribute name="loved" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="price" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="ProductListItem" positionX="-63" positionY="-18" width="128" height="119"/>
+        <element name="HistoryProductLIstItem" positionX="-54" positionY="36" width="128" height="119"/>
+    </elements>
 </model>
